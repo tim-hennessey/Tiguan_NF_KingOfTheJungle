@@ -81,13 +81,15 @@ body {
         top: 0;
         width: $banner-width;
         height: $banner-height;
-        background: linear-gradient(150deg, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%);
+        background: linear-gradient(150deg, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 45%,rgba(0,0,0,0) 90%);
+        opacity: 0;
         position: absolute;
     }
 
     #txt1 {
         left: 10px;
         top: 15px;
+        opacity: 0;
         position: absolute;
     }
 
